@@ -6,7 +6,7 @@ layout: home
 
 Stage: Proof of concept, R&D in progress
 
-Novel sustainable technology allowing fresh water production for everybody without access to electricity
+Novel sustainable technology allowing fresh water production for everybody without access to electricity![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696044/desaltung/luis-graterol-uAROvYw9WDs-unsplash_c7zouh.jpg)
 
 ![](/v1602696044/desaltung/luis-graterol-uAROvYw9WDs-unsplash_c7zouh.jpg)
 
