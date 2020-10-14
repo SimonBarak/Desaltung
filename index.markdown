@@ -4,7 +4,7 @@ layout: home
 ---
 # Nano-Enhanced solar desalization
 
-Novel sustainable technology allowing fresh water production for everybody without access to electricity
+[Desaltung](http://127.0.0.1:4000/) is novel sustainable technology allowing fresh water production for everybody without access to electricity
 
 Stage: Proof of concept, R&D in progress
 
