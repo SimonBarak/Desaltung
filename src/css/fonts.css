@@ -1,15 +1,26 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  src: url("/blog/assets/font-files/Roboto-Regular.ttf") format("ttf");
+  src: url("/desaltung/assets/font-files/Inter-Medium.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/desaltung/assets/font-files/Inter-Regular.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("/blog/assets/font-files/Roboto-Thin.ttf") format("ttf");
+  src: url("/desaltung/assets/font-files/Inter-Light.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Light.woff2") format("woff2");
 }

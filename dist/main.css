@@ -1,17 +1,28 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  src: url("/blog/assets/font-files/Roboto-Regular.ttf") format("ttf");
+  src: url("/desaltung/assets/font-files/Inter-Medium.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/desaltung/assets/font-files/Inter-Regular.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("/blog/assets/font-files/Roboto-Thin.ttf") format("ttf");
+  src: url("/desaltung/assets/font-files/Inter-Light.woff") format("woff"),
+    url("/desaltung/assets/font-files/Inter-Light.woff2") format("woff2");
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -557,7 +568,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -712,29 +723,35 @@ video {
 
 .prose h1 {
   color: #1a202c;
-  font-weight: 800;
-  font-size: 2.25em;
+  font-weight: 100;
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
+  font-family: Inter;
+  font-family: sans-serif;
 }
 
 .prose h2 {
   color: #1a202c;
-  font-weight: 700;
-  font-size: 1.5em;
+  font-weight: 100;
+  font-size: 1.5rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
+  font-family: Inter;
+  font-family: sans-serif;
 }
 
 .prose h3 {
   color: #1a202c;
-  font-weight: 600;
-  font-size: 1.25em;
+  font-weight: 400;
+  font-size: 1rem;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
   line-height: 1.6;
+  font-family: Inter;
+  font-family: sans-serif;
 }
 
 .prose h4 {
@@ -850,6 +867,7 @@ video {
 .prose p {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
+  text-align: left;
 }
 
 .prose img {
@@ -11541,16 +11559,12 @@ video {
   clear: none;
 }
 
-.font-sans {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-basic {
+  font-family: Roboto, sans-serif;
 }
 
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-body {
+  font-family: Times, serif;
 }
 
 .font-hairline {
@@ -20616,29 +20630,35 @@ article ol {
 
   .sm\:prose h1 {
     color: #1a202c;
-    font-weight: 800;
-    font-size: 2.25em;
+    font-weight: 100;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .sm\:prose h2 {
     color: #1a202c;
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .sm\:prose h3 {
     color: #1a202c;
-    font-weight: 600;
-    font-size: 1.25em;
+    font-weight: 400;
+    font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
     line-height: 1.6;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .sm\:prose h4 {
@@ -20754,6 +20774,7 @@ article ol {
   .sm\:prose p {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    text-align: left;
   }
 
   .sm\:prose img {
@@ -31445,16 +31466,12 @@ article ol {
     clear: none;
   }
 
-  .sm\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-basic {
+    font-family: Roboto, sans-serif;
   }
 
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-body {
+    font-family: Times, serif;
   }
 
   .sm\:font-hairline {
@@ -40438,29 +40455,35 @@ article ol {
 
   .md\:prose h1 {
     color: #1a202c;
-    font-weight: 800;
-    font-size: 2.25em;
+    font-weight: 100;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .md\:prose h2 {
     color: #1a202c;
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .md\:prose h3 {
     color: #1a202c;
-    font-weight: 600;
-    font-size: 1.25em;
+    font-weight: 400;
+    font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
     line-height: 1.6;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .md\:prose h4 {
@@ -40576,6 +40599,7 @@ article ol {
   .md\:prose p {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    text-align: left;
   }
 
   .md\:prose img {
@@ -51267,16 +51291,12 @@ article ol {
     clear: none;
   }
 
-  .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-basic {
+    font-family: Roboto, sans-serif;
   }
 
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-body {
+    font-family: Times, serif;
   }
 
   .md\:font-hairline {
@@ -60260,29 +60280,35 @@ article ol {
 
   .lg\:prose h1 {
     color: #1a202c;
-    font-weight: 800;
-    font-size: 2.25em;
+    font-weight: 100;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .lg\:prose h2 {
     color: #1a202c;
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .lg\:prose h3 {
     color: #1a202c;
-    font-weight: 600;
-    font-size: 1.25em;
+    font-weight: 400;
+    font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
     line-height: 1.6;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .lg\:prose h4 {
@@ -60398,6 +60424,7 @@ article ol {
   .lg\:prose p {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    text-align: left;
   }
 
   .lg\:prose img {
@@ -71089,16 +71116,12 @@ article ol {
     clear: none;
   }
 
-  .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-basic {
+    font-family: Roboto, sans-serif;
   }
 
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-body {
+    font-family: Times, serif;
   }
 
   .lg\:font-hairline {
@@ -80082,29 +80105,35 @@ article ol {
 
   .xl\:prose h1 {
     color: #1a202c;
-    font-weight: 800;
-    font-size: 2.25em;
+    font-weight: 100;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .xl\:prose h2 {
     color: #1a202c;
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .xl\:prose h3 {
     color: #1a202c;
-    font-weight: 600;
-    font-size: 1.25em;
+    font-weight: 400;
+    font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
     line-height: 1.6;
+    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .xl\:prose h4 {
@@ -80220,6 +80249,7 @@ article ol {
   .xl\:prose p {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    text-align: left;
   }
 
   .xl\:prose img {
@@ -90911,16 +90941,12 @@ article ol {
     clear: none;
   }
 
-  .xl\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-basic {
+    font-family: Roboto, sans-serif;
   }
 
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-body {
+    font-family: Times, serif;
   }
 
   .xl\:font-hairline {

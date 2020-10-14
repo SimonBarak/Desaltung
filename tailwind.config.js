@@ -1,7 +1,15 @@
 module.exports = {
   purge: ["./_includes/*.html", "./_layouts/*.html"],
   plugins: [require("@tailwindcss/typography")],
+  
   theme: {
+    fontFamily: {
+      body: ["Inter", "sans-serif"],
+    },
+    container: {
+      center: true,
+      padding: "0.7rem",
+    },
     typography: {
       md: {
         css: {
@@ -11,6 +19,33 @@ module.exports = {
           },
         },
       },
+      default: {
+        css: {
+          h1: {
+            fontFamily: ["Inter", "sans-serif"],
+            fontWeight: 100,
+            fontSize: "3rem",
+          },
+          h2: {
+            fontFamily: ["Inter", "sans-serif"],
+            fontWeight: 100,
+            fontSize: "1.5rem",
+          },
+          h3: {
+            fontFamily: ["Inter", "sans-serif"],
+            fontWeight: 400,
+            fontSize: "1rem",
+          },
+          p: {
+            textAlign: "left",
+          },
+        },
+      },
+    },
+    fontThin: 100,
+    fontFamily: {
+      basic: ["Roboto", "sans-serif"],
+      body: ["Times", "serif"],
     },
     container: {
       center: true,
