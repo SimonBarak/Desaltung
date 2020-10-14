@@ -12,6 +12,8 @@ Novel sustainable technology allowing fresh water production for everybody witho
 
 ![](/v1602696117/desaltung/ivan-bandura-Ac97OqAWDvg-unsplash_wqw7dq.jpg)
 
+![](/v1602697287/desaltung/photo-1533163598089-2136626258e9_pfmao2.jpg)
+
 Solar desalisation is simple proccess using greenhouse effect. In its original form it is usable yet ineffective for industrial scale production. By applying novel nanotextile on the surface of the contaminated water it is possible to speed up the process drastically.
 
 ![](/v1602696593/desaltung/cloth_ax8mti.jpg)
