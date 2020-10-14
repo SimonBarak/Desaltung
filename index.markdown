@@ -4,9 +4,7 @@ layout: home
 ---
 # Nano-Enhanced solar desalization
 
-Stage: Proof of concept, R&D in progress
-
-## Novel sustainable technology allowing fresh water production for everybody without access to electricity
+Novel sustainable technology allowing fresh water production for everybody without access to electricity
 
 Stage: Proof of concept, R&D in progress
 
