@@ -8,7 +8,9 @@ Stage: Proof of concept, R&D in progress
 
 ## Novel sustainable technology allowing fresh water production for everybody without access to electricity
 
-Stage: Proof of concept, R&D in progress![ Griffin Wooldridge](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696044/desaltung/luis-graterol-uAROvYw9WDs-unsplash_c7zouh.jpg " Griffin Wooldridge")
+Stage: Proof of concept, R&D in progress
+
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602707019/desaltung/griffin-wooldridge-EZlMkHgbjPc-unsplash_in2ubh.jpg)
 
 ## Solar desalisation is simple proccess using greenhouse effect.
 
@@ -32,4 +34,8 @@ However most of the population still cannot afford expensive devices in form of 
 
 Imagine a simple pool filled with salty or contaminated water. Cover that pool with greenhouse made from glass and systém of collecting tubes inside and connect the reservoir for desalinizated water. Sun heat up the water and evaporates it while water wapours, salt free, condensate on the greenhouse glass and goes down filling the tank. For direct usage it is necessary to add some minerals and water is good for drinking. Such process is directly dependent on water and vapours interface and in the simplest for could be quite slow.
 
-We are developing something which can change this systém to something which will be industrially usable for real mass production of fresh water. Our nanotextiles are placed on the water and while floating on the water they are heated up dramatically due to unique composition which absorb all the visible and unvisible irradtiation from the sun. We can easily achieve temperature close to boiling point of the water and due to superhydrophilicity the interface could be supplied by new water all the time so the flux and production is continual.
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696593/desaltung/cloth_ax8mti.jpg)
+
+## We can change this systém to something which will be industrially usable for real mass production of fresh water. 
+
+Our nanotextiles are placed on the water and while floating on the water they are heated up dramatically due to unique composition which absorb all the visible and unvisible irradtiation from the sun. We can easily achieve temperature close to boiling point of the water and due to superhydrophilicity the interface could be supplied by new water all the time so the flux and production is continual.
