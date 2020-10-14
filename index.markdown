@@ -6,7 +6,7 @@ layout: home
 
 Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
 
-### Stage: Proof of concept, R&D in progress
+Stage: Proof of concept, R&D in progress
 
 ![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602707019/desaltung/griffin-wooldridge-EZlMkHgbjPc-unsplash_in2ubh.jpg)
 
