@@ -1,0 +1,22 @@
+{
+  "name": "Desaltung",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/simonbarak/desaltung.git",
+  "author": "simon-barak.link",
+  "license": "MIT",
+  "scripts": {
+    "prod": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack --watch",
+    "start": "Code . | bundle exec jekyll serve --trace"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "postcss": "^8.1.0",
+    "postcss-loader": "^4.0.2",
+    "tailwindcss": "^1.8.10",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

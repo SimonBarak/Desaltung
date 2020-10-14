@@ -1,0 +1,57 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "./css/fonts.css";
+
+/* add some padding to force scrollbars */
+.parallax__layer {
+  padding: 100vh 0;
+}
+
+/* centre the content in the parallax layers */
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  right: 0;
+  bottom: 0;
+}
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  background-image: url("https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602681052/blog/background-two.jpg");
+  background-size: cover;
+}
+
+/* p,
+ol,
+h1,
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+article ol {
+  list-style-type: decimal;
+  margin-left: 2em;
+} */
+
+/* article ol.lower-roman {
+  list-style-type: lower-roman;
+} */
