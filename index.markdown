@@ -1,8 +1,11 @@
 ---
 layout: home
-
+thumb: "/v1603734487/desaltung/thumb.jpg"
 ---
+
 # Nano-Enhanced solar desalization
+
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1603734483/desaltung/video.jpg)
 
 Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
 
