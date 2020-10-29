@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://desaltung.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
-img_url: https://res.cloudinary.com/dhxmg9p4i/image/upload
+img_url: https://res.cloudinary.com/dhxmg9p4i/image/upload/
 
 # Build settings
 #theme: minima
