@@ -1,8 +1,8 @@
 ---
 layout: home
 thumb: "/v1603734487/desaltung/thumb.jpg"
----
 
+---
 # Nano-Enhanced solar desalization
 
 ![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1603734483/desaltung/video.jpg)
@@ -40,3 +40,5 @@ Imagine a simple pool filled with salty or contaminated water. Cover that pool w
 ## We can change this systém to something which will be industrially usable for real mass production of fresh water.
 
 Our nanotextiles are placed on the water and while floating on the water they are heated up dramatically due to unique composition which absorb all the visible and unvisible irradtiation from the sun. We can easily achieve temperature close to boiling point of the water and due to superhydrophilicity the interface could be supplied by new water all the time so the flux and production is continual.
+
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696104/desaltung/anthony-aird-mgJo2xmXyAM-unsplash_k9x1e9.jpg)
