@@ -1,0 +1,10 @@
+---
+label: basic
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: thumb
+  label: thumb
