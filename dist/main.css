@@ -735,7 +735,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -868,6 +868,7 @@ video {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   text-align: left;
+  font-size: 1.5rem;
 }
 
 .prose img {
@@ -20732,7 +20733,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -20865,6 +20866,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .sm\:prose img {
@@ -40557,7 +40559,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -40690,6 +40692,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .md\:prose img {
@@ -60382,7 +60385,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -60515,6 +60518,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .lg\:prose img {
@@ -80207,7 +80211,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -80340,6 +80344,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .xl\:prose img {
