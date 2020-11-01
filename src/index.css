@@ -6,13 +6,99 @@
 
 @import "./css/fonts.css";
 
-/* add some padding to force scrollbars */
+/* .fog {
+  background: linear-gradient(
+    rgba(245, 245, 245, 0.7),
+    rgba(245, 245, 245, 0) 70.71%
+  );
+  background-size: 200% 200%;
+  animation: gradient-1 8s ease infinite;
+} */
+
+.fog-1 {
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0) 70%
+  );
+  animation: gradient 7s ease infinite;
+}
+
+.fog-2 {
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0) 70%
+  );
+  animation: gradient-2 8s ease infinite;
+}
+
+.fog-3 {
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0) 70%
+  );
+  animation: gradient-3 8s ease infinite;
+}
+
+.fog-4 {
+  background: linear-gradient(rgba(87, 141, 255, 0.7), rgba(255, 255, 100, 0));
+}
+
+@keyframes gradient {
+  0% {
+    transform: translate(20vw, 0);
+  }
+  50% {
+    transform: translate(50vw, 10px);
+  }
+  100% {
+    transform: translate(20vw, 0);
+  }
+}
+
+@keyframes gradient-3 {
+  0% {
+    transform: translate(-60vw, 10px);
+  }
+  50% {
+    transform: translate(-30vw, 0);
+  }
+  100% {
+    transform: translate(-60vw, 10px);
+  }
+}
+
+@keyframes gradient-2 {
+  0% {
+    transform: translateX(70vw);
+  }
+  50% {
+    transform: translateX(20vw);
+  }
+  100% {
+    transform: translateX(70vw);
+  }
+}
+
+/* @keyframes 2 {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 20%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+} */
+
+/* add some padding to force scrollbars
 .parallax__layer {
   padding: 100vh 0;
 }
 
 /* centre the content in the parallax layers */
-.parallax {
+
+/* .parallax {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -38,7 +124,7 @@
   transform: translateZ(-1px) scale(2);
   background-image: url("https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602681052/blog/background-two.jpg");
   background-size: cover;
-}
+} */
 
 /* p,
 ol,
