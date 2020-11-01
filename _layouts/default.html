@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   {%- include head.html -%}
-  <body class="text-gray-800 font-basic">
-    <div class="fog-4 h-40 w-full fixed top-0 z-50"></div>
-    <div class="fog-1 mt-4 h-40 w-full fixed top-0 z-50"></div>
-    <div class="fog-2 mt-4 h-40 w-full fixed top-0 z-50"></div>
-    <div class="fog-3 mt-4 h-40 w-full fixed top-0 z-50"></div>
+  <body class="text-gray-800 font-basic overflow-x-hidden">
+    <div
+      class="pointer-events-none fog-4 h-56 w-full absolute top-0 z-50"
+    ></div>
+    <div
+      class="pointer-events-none fog-1 mt-20 h-56 w-full absolute top-0 z-50"
+    ></div>
+    <div
+      class="pointer-events-none fog-2 mt-20 h-56 w-full absolute top-0 z-50"
+    ></div>
+    <div
+      class="pointer-events-none fog-3 mt-20 h-56 w-full absolute top-0 z-50"
+    ></div>
 
     {%- include header.html -%}
-    <main class="container max-w-3xl mb-20">{{ content }}</main>
+    <main class="mb-20">{{ content }}</main>
     {%- include footer.html -%}
 
     <script src="{{ site.baseurl }}/dist/bundle.js"></script>
