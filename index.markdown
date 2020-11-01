@@ -6,9 +6,9 @@ thumb: "/v1603734487/desaltung/thumb.jpg"
 # Nano-Enhanced solar desalization
 
 <video controls width="100%">
-    <source src="https://res.cloudinary.com/dhxmg9p4i/video/upload/v1604247477/desaltung/videoplayback.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
+<source src="https://res.cloudinary.com/dhxmg9p4i/video/upload/v1604247477/desaltung/videoplayback.mp4"
+type="video/mp4">
+Sorry, your browser doesn't support embedded videos.
 </video>
 
 Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
@@ -41,7 +41,7 @@ Imagine a simple pool filled with salty or contaminated water. Cover that pool w
 
 ![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696593/desaltung/cloth_ax8mti.jpg)
 
-## We can change this systém to something which will be industrially usable for real mass production of fresh water.
+## We can change this system to something which will be industrially usable for real mass production of fresh water.
 
 Our nanotextiles are placed on the water and while floating on the water they are heated up dramatically due to unique composition which absorb all the visible and unvisible irradtiation from the sun. We can easily achieve temperature close to boiling point of the water and due to superhydrophilicity the interface could be supplied by new water all the time so the flux and production is continual.
 
