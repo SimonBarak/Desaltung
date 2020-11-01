@@ -10,3 +10,5 @@ fields:
   name: thumb
   label: thumb
   hidden: true
+pages:
+- index.markdown
