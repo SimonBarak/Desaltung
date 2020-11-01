@@ -1,0 +1,14 @@
+---
+label: basic
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: file
+  name: thumb
+  label: thumb
+  hidden: true
+pages:
+- index.markdown
