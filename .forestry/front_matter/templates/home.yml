@@ -6,5 +6,3 @@ fields:
   name: layout
   label: layout
   hidden: true
-pages:
-- index.markdown
