@@ -724,7 +724,7 @@ video {
 .prose h1 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -735,7 +735,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -1869,6 +1869,14 @@ video {
 
 .prose-2xl > :last-child {
   margin-bottom: 0;
+}
+
+.prose-md h1 {
+  font-size: 3rem;
+}
+
+.prose-md h2 {
+  font-size: 3rem;
 }
 
 .prose-md p {
@@ -20470,71 +20478,95 @@ video {
 
 .fog-1 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient 7s ease infinite;
+  animation: gradient 6s ease infinite;
 }
 
 .fog-2 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-2 8s ease infinite;
+  animation: gradient-2 10s ease infinite;
 }
 
 .fog-3 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-3 8s ease infinite;
+  animation: gradient-3 7s ease infinite;
 }
 
 .fog-4 {
-  background: linear-gradient(rgba(87, 141, 255, 0.7), rgba(255, 255, 100, 0));
+  background: linear-gradient(rgb(78, 134, 255), rgba(255, 255, 100, 0));
 }
 
 @keyframes gradient {
   0% {
     transform: translate(20vw, 0);
+    opacity: 0;
   }
 
-  50% {
+  20% {
+    opacity: 1;
+    transform: translate(20vw, 0);
+  }
+
+  70% {
+    opacity: 1;
     transform: translate(50vw, 10px);
   }
 
   100% {
-    transform: translate(20vw, 0);
-  }
-}
-
-@keyframes gradient-3 {
-  0% {
-    transform: translate(-60vw, 10px);
-  }
-
-  50% {
-    transform: translate(-30vw, 0);
-  }
-
-  100% {
-    transform: translate(-60vw, 10px);
+    opacity: 0;
+    transform: translate(60vw, 10px);
   }
 }
 
 @keyframes gradient-2 {
   0% {
-    transform: translateX(70vw);
+    opacity: 0;
+    transform: translate(0vw, 10px);
   }
 
-  50% {
-    transform: translateX(20vw);
+  20% {
+    opacity: 1;
+    transform: translate(0vw, 10px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translate(70vw, 0px);
   }
 
   100% {
-    transform: translateX(70vw);
+    opacity: 0;
+    transform: translate(60vw, -10px);
+  }
+}
+
+@keyframes gradient-3 {
+  0% {
+    opacity: 0;
+    transform: translate(-20vw, 10px);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translate(-30vw, 10px);
+  }
+
+  70% {
+    transform: translate(-30vw, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0vw, -10px);
+    opacity: 0;
   }
 }
 
@@ -20722,7 +20754,7 @@ article ol {
   .sm\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -20733,7 +20765,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -21867,6 +21899,14 @@ article ol {
 
   .sm\:prose-2xl > :last-child {
     margin-bottom: 0;
+  }
+
+  .sm\:prose-md h1 {
+    font-size: 3rem;
+  }
+
+  .sm\:prose-md h2 {
+    font-size: 3rem;
   }
 
   .sm\:prose-md p {
@@ -40548,7 +40588,7 @@ article ol {
   .md\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -40559,7 +40599,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -41693,6 +41733,14 @@ article ol {
 
   .md\:prose-2xl > :last-child {
     margin-bottom: 0;
+  }
+
+  .md\:prose-md h1 {
+    font-size: 3rem;
+  }
+
+  .md\:prose-md h2 {
+    font-size: 3rem;
   }
 
   .md\:prose-md p {
@@ -60374,7 +60422,7 @@ article ol {
   .lg\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -60385,7 +60433,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -61519,6 +61567,14 @@ article ol {
 
   .lg\:prose-2xl > :last-child {
     margin-bottom: 0;
+  }
+
+  .lg\:prose-md h1 {
+    font-size: 3rem;
+  }
+
+  .lg\:prose-md h2 {
+    font-size: 3rem;
   }
 
   .lg\:prose-md p {
@@ -80200,7 +80256,7 @@ article ol {
   .xl\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -80211,7 +80267,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -81345,6 +81401,14 @@ article ol {
 
   .xl\:prose-2xl > :last-child {
     margin-bottom: 0;
+  }
+
+  .xl\:prose-md h1 {
+    font-size: 3rem;
+  }
+
+  .xl\:prose-md h2 {
+    font-size: 3rem;
   }
 
   .xl\:prose-md p {

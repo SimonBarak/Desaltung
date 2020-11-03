@@ -17,65 +17,86 @@
 
 .fog-1 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient 7s ease infinite;
+  animation: gradient 6s ease infinite;
 }
 
 .fog-2 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-2 8s ease infinite;
+  animation: gradient-2 10s ease infinite;
 }
 
 .fog-3 {
   background: radial-gradient(
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-3 8s ease infinite;
+  animation: gradient-3 7s ease infinite;
 }
 
 .fog-4 {
-  background: linear-gradient(rgba(87, 141, 255, 0.7), rgba(255, 255, 100, 0));
+  background: linear-gradient(rgb(78, 134, 255), rgba(255, 255, 100, 0));
 }
 
 @keyframes gradient {
   0% {
     transform: translate(20vw, 0);
+    opacity: 0;
   }
-  50% {
+  20% {
+    opacity: 1;
+    transform: translate(20vw, 0);
+  }
+  70% {
+    opacity: 1;
     transform: translate(50vw, 10px);
   }
   100% {
-    transform: translate(20vw, 0);
-  }
-}
-
-@keyframes gradient-3 {
-  0% {
-    transform: translate(-60vw, 10px);
-  }
-  50% {
-    transform: translate(-30vw, 0);
-  }
-  100% {
-    transform: translate(-60vw, 10px);
+    opacity: 0;
+    transform: translate(60vw, 10px);
   }
 }
 
 @keyframes gradient-2 {
   0% {
-    transform: translateX(70vw);
+    opacity: 0;
+    transform: translate(0vw, 10px);
   }
-  50% {
-    transform: translateX(20vw);
+  20% {
+    opacity: 1;
+    transform: translate(0vw, 10px);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(70vw, 0px);
   }
   100% {
-    transform: translateX(70vw);
+    opacity: 0;
+    transform: translate(60vw, -10px);
+  }
+}
+
+@keyframes gradient-3 {
+  0% {
+    opacity: 0;
+    transform: translate(-20vw, 10px);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-30vw, 10px);
+  }
+  70% {
+    transform: translate(-30vw, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0vw, -10px);
+    opacity: 0;
   }
 }
 

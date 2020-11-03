@@ -1,11 +1,11 @@
 ---
 layout: home
 thumb: "/v1603734487/desaltung/thumb.jpg"
-
 ---
+
 # Nano-Enhanced solar desalization
 
-<video controls width="100%">
+<video controls width="100%" poster="https://res.cloudinary.com/dhxmg9p4i/image/upload/v1604434055/desaltung/video-poster.jpg">
 <source src="https://res.cloudinary.com/dhxmg9p4i/video/upload/v1604247477/desaltung/videoplayback.mp4"
 type="video/mp4">
 Sorry, your browser doesn't support embedded videos.

@@ -13,6 +13,12 @@ module.exports = {
     typography: {
       md: {
         css: {
+          h1: {
+            fontSize: "3rem",
+          },
+          h2: {
+            fontSize: "3rem",
+          },
           p: {
             textAlign: "justify",
             fontSize: "1.2rem",
@@ -24,12 +30,12 @@ module.exports = {
           h1: {
             fontFamily: ["Inter", "sans-serif"],
             fontWeight: 100,
-            fontSize: "3rem",
+            fontSize: "2rem",
           },
           h2: {
             fontFamily: ["Inter", "sans-serif"],
             fontWeight: 100,
-            fontSize: "3rem",
+            fontSize: "2rem",
           },
           h3: {
             fontFamily: ["Inter", "sans-serif"],
