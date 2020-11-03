@@ -724,7 +724,7 @@ video {
 .prose h1 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -735,7 +735,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -868,7 +868,7 @@ video {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .prose img {
@@ -1880,8 +1880,7 @@ video {
 }
 
 .prose-md p {
-  text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -20754,7 +20753,7 @@ article ol {
   .sm\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -20765,7 +20764,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -20898,7 +20897,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .sm\:prose img {
@@ -21910,8 +21909,7 @@ article ol {
   }
 
   .sm\:prose-md p {
-    text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .sm\:space-y-0 > :not(template) ~ :not(template) {
@@ -40588,7 +40586,7 @@ article ol {
   .md\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -40599,7 +40597,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -40732,7 +40730,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .md\:prose img {
@@ -41744,8 +41742,7 @@ article ol {
   }
 
   .md\:prose-md p {
-    text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .md\:space-y-0 > :not(template) ~ :not(template) {
@@ -60422,7 +60419,7 @@ article ol {
   .lg\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -60433,7 +60430,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -60566,7 +60563,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .lg\:prose img {
@@ -61578,8 +61575,7 @@ article ol {
   }
 
   .lg\:prose-md p {
-    text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .lg\:space-y-0 > :not(template) ~ :not(template) {
@@ -80256,7 +80252,7 @@ article ol {
   .xl\:prose h1 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -80267,7 +80263,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -80400,7 +80396,7 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .xl\:prose img {
@@ -81412,8 +81408,7 @@ article ol {
   }
 
   .xl\:prose-md p {
-    text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .xl\:space-y-0 > :not(template) ~ :not(template) {
