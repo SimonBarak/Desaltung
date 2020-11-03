@@ -3,15 +3,18 @@
   {%- include head.html -%}
   <body class="text-gray-800 font-basic overflow-x-hidden">
     <div class="pointer-events-none fog-4 h-64 w-full absolute top-0"></div>
-    <div
-      class="pointer-events-none fog-1 mt-24 md:mt-32 h-56 w-full absolute top-0 z-50"
-    ></div>
-    <div
-      class="pointer-events-none fog-2 mt-40 md:mt-48 h-56 w-full absolute top-0 z-50"
-    ></div>
-    <div
-      class="pointer-events-none fog-3 mt-24 md:mt-32 h-56 w-full absolute top-0 z-50"
-    ></div>
+
+    <div class="absolute top-0 h-64 mt-40 w-full overflow-x-hidden">
+      <div
+        class="pointer-events-none fog-1 md:mt-32 h-48 w-full absolute top-0 z-50"
+      ></div>
+      <div
+        class="pointer-events-none fog-2 md:mt-48 h-48 w-full absolute top-0 z-50"
+      ></div>
+      <div
+        class="pointer-events-none fog-3 md:mt-32 h-48 w-full absolute top-0 z-50"
+      ></div>
+    </div>
 
     {%- include header.html -%}
     <main class="mb-20">{{ content }}</main>
