@@ -20,7 +20,7 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient 6s ease infinite;
+  animation: gradient 8s ease infinite;
 }
 
 .fog-2 {
@@ -28,7 +28,7 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-2 10s ease infinite;
+  animation: gradient-2 12s ease infinite;
 }
 
 .fog-3 {
@@ -36,7 +36,7 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-3 7s ease infinite;
+  animation: gradient-3 10s ease infinite;
 }
 
 .fog-4 {

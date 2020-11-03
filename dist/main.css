@@ -735,7 +735,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 100;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -20480,7 +20480,7 @@ video {
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient 6s ease infinite;
+  animation: gradient 8s ease infinite;
 }
 
 .fog-2 {
@@ -20488,7 +20488,7 @@ video {
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-2 10s ease infinite;
+  animation: gradient-2 12s ease infinite;
 }
 
 .fog-3 {
@@ -20496,7 +20496,7 @@ video {
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0) 70%
   );
-  animation: gradient-3 7s ease infinite;
+  animation: gradient-3 10s ease infinite;
 }
 
 .fog-4 {
@@ -20764,7 +20764,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -40597,7 +40597,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -60430,7 +60430,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -80263,7 +80263,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;

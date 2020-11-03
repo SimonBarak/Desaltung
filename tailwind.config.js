@@ -34,7 +34,7 @@ module.exports = {
           h2: {
             fontFamily: ["Inter", "sans-serif"],
             fontWeight: 100,
-            fontSize: "2.5rem",
+            fontSize: "2rem",
           },
           h3: {
             fontFamily: ["Inter", "sans-serif"],
