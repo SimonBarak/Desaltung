@@ -45,7 +45,6 @@ import "./index.css";
       distUnit,
       i;
 
-    console.count(elemLength);
     for (i = 0; i < elemLength; ++i) {
       distTop = elem[i].getBoundingClientRect().top;
       distPercent = Math.round((distTop / winY) * 100);

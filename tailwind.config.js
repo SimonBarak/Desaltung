@@ -1,7 +1,7 @@
 module.exports = {
-  purge: ["./_includes/*.html", "./_layouts/*.html"],
+  purge: ["./_includes/*.html", "./_layouts/*.html", "./dist/*.js"],
   plugins: [require("@tailwindcss/typography")],
-  
+
   theme: {
     fontFamily: {
       body: ["Inter", "sans-serif"],
