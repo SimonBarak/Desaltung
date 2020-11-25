@@ -697,7 +697,7 @@ video {
 .prose h1 {
   color: #1a202c;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 3.75rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -708,7 +708,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -2470,7 +2470,7 @@ article ol {
   .sm\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -2481,7 +2481,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -3751,7 +3751,7 @@ article ol {
   .md\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -3762,7 +3762,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -5048,7 +5048,7 @@ article ol {
   .lg\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -5059,7 +5059,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -6333,7 +6333,7 @@ article ol {
   .xl\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -6344,7 +6344,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
