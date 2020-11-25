@@ -9,7 +9,7 @@ thumb: /v1606347289/desaltung/desaltung-iso.png
 
 ## <span style="color:orange">Stage: Proof of concept, R&D in progress 🚀 </span>
 
-### See our 2.5 min explainer video:
+### See our explainer video (2.5 min.)
 
 <video controls width="100%" poster="https://res.cloudinary.com/dhxmg9p4i/image/upload/v1604434055/desaltung/video-poster.jpg">
 <source src="https://res.cloudinary.com/dhxmg9p4i/video/upload/v1604247477/desaltung/videoplayback.mp4"
