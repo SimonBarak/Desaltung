@@ -2022,10 +2022,6 @@ video {
   pointer-events: none;
 }
 
-.static {
-  position: static;
-}
-
 .absolute {
   position: absolute;
 }
@@ -2192,7 +2188,7 @@ video {
 
 .blankit {
   background: linear-gradient(
-    rgb(110, 133, 227) 0%,
+    rgb(77, 101, 199) 0%,
     rgb(150, 168, 255) 40%,
     rgba(255, 255, 255, 0) 100%
   );
