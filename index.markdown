@@ -3,7 +3,13 @@ layout: home
 thumb: "/v1603734487/desaltung/thumb.jpg"
 ---
 
-# Nano-Enhanced solar desalization
+# Nano-Enhanced<br />solar desalization
+
+## Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
+
+## <span style="color:orange">Stage: Proof of concept, R&D in progress 🚀 </span>
+
+### See our 2.5 min explainer video:
 
 <video controls width="100%" poster="https://res.cloudinary.com/dhxmg9p4i/image/upload/v1604434055/desaltung/video-poster.jpg">
 <source src="https://res.cloudinary.com/dhxmg9p4i/video/upload/v1604247477/desaltung/videoplayback.mp4"
@@ -11,17 +17,11 @@ type="video/mp4">
 Sorry, your browser doesn't support embedded videos.
 </video>
 
-Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
-
-Stage: Proof of concept, R&D in progress
-
-![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602707019/desaltung/griffin-wooldridge-EZlMkHgbjPc-unsplash_in2ubh.jpg)
-
 ## Solar desalisation is simple proccess using greenhouse effect.
 
-In its original form it is usable yet ineffective for industrial scale production. By applying novel nanotextile on the surface of the contaminated water it is possible to speed up the process drastically.
+In original form it is usable yet ineffective for industrial scale production. By applying novel nanotextile on the surface of the contaminated water it is possible to speed up the process drastically.
 
-![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696752/desaltung/wather_ayhl9z.jpg)
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696593/desaltung/cloth_ax8mti.jpg)
 
 ## Only 0.7% of all water on our planet is fresh.
 
@@ -38,8 +38,6 @@ However most of the population still cannot afford expensive devices in form of 
 ## Solar desalitisation is simple technology based on physical phenomena close to greenhouse effect.
 
 Imagine a simple pool filled with salty or contaminated water. Cover that pool with greenhouse made from glass and systém of collecting tubes inside and connect the reservoir for desalinizated water. Sun heat up the water and evaporates it while water wapours, salt free, condensate on the greenhouse glass and goes down filling the tank. For direct usage it is necessary to add some minerals and water is good for drinking. Such process is directly dependent on water and vapours interface and in the simplest for could be quite slow.
-
-![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602696593/desaltung/cloth_ax8mti.jpg)
 
 ## We can change this system to something which will be industrially usable for real mass production of fresh water.
 

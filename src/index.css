@@ -31,14 +31,27 @@
     url("./Inter-Light.woff2") format("woff2");
 }
 
-/* .fog {
-  background: linear-gradient(
-    rgba(245, 245, 245, 0.7),
-    rgba(245, 245, 245, 0) 70.71%
-  );
-  background-size: 200% 200%;
-  animation: gradient-1 8s ease infinite;
-} */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./Inter-Light.woff") format("woff"),
+    url("./Inter-Light.woff2") format("woff2");
+}
+
+.logo {
+  width: 25px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 765px) {
+  .logo {
+    width: 40px;
+    display: inline-block;
+  }
+}
 
 .fog-1 {
   background: radial-gradient(
@@ -64,8 +77,20 @@
   animation: gradient-3 10s ease infinite;
 }
 
-.fog-4 {
-  background: linear-gradient(rgb(0, 90, 170), rgba(255, 255, 255, 0));
+.blankit {
+  background: linear-gradient(
+    rgb(110, 133, 227) 0%,
+    rgb(150, 168, 255) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.blankit-2 {
+  background: radial-gradient(
+    rgba(40, 61, 147, 0.1) 0%,
+    rgba(0, 90, 170, 0.1) 70%,
+    rgba(50, 67, 255, 0.3) 100%
+  );
 }
 
 @keyframes gradient {

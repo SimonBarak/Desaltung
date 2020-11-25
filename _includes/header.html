@@ -1,11 +1,15 @@
-<header>
-  <div class="max-w-xl mx-auto flex px-2 pt-32 pb-5">
+<header class="z-20">
+  <div
+    class="max-w-xl mx-auto flex px-2 pt-32 pb-8 md:pt-40 md:pb-12 max-w-5xl"
+  >
     <div class="flex-grow">
       <a
-        class="text-xl md:text-2xl font-medium"
+        class="text-2xl md:text-4xl"
         href="{{site.baseurl}}/{% if page.lang == 'en' %}en{% endif %}"
+        style="color: rgb(0, 25, 154)"
       >
-        Desaltung ≈
+        <img class="logo" src="./dist/desaltung-logo.svg" />
+        Desaltung
       </a>
     </div>
     <div></div>

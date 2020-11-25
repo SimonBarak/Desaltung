@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Desaltung ≈
+title: Desaltung
 email: kunrat@desaltung.com
 description: Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
 baseurl: "" # the subpath of your site, e.g. /blog

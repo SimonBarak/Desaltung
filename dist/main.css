@@ -696,8 +696,8 @@ video {
 
 .prose h1 {
   color: #1a202c;
-  font-weight: 100;
-  font-size: 2.5rem;
+  font-weight: 400;
+  font-size: 4rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -707,7 +707,7 @@ video {
 
 .prose h2 {
   color: #1a202c;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -718,7 +718,7 @@ video {
 
 .prose h3 {
   color: #1a202c;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1rem;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
@@ -1845,7 +1845,7 @@ video {
 }
 
 .prose-md h1 {
-  font-size: 3rem;
+  font-size: 6rem;
 }
 
 .prose-md h2 {
@@ -1916,10 +1916,6 @@ video {
   font-weight: 200;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .h-48 {
   height: 12rem;
 }
@@ -1934,10 +1930,6 @@ video {
 
 .text-sm {
   font-size: 0.875rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
 }
 
 .text-2xl {
@@ -1969,12 +1961,16 @@ video {
   margin-top: 8rem;
 }
 
-.max-w-none {
-  max-width: none;
-}
-
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .object-contain {
@@ -2014,8 +2010,8 @@ video {
   padding-bottom: 12rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .pt-32 {
@@ -2024,6 +2020,10 @@ video {
 
 .pointer-events-none {
   pointer-events: none;
+}
+
+.static {
+  position: static;
 }
 
 .absolute {
@@ -2060,6 +2060,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-50 {
@@ -2136,14 +2140,31 @@ video {
     url(ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
 }
 
-/* .fog {
-  background: linear-gradient(
-    rgba(245, 245, 245, 0.7),
-    rgba(245, 245, 245, 0) 70.71%
-  );
-  background-size: 200% 200%;
-  animation: gradient-1 8s ease infinite;
-} */
+@font-face {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  font-display: swap;
+
+  src: url(3ee890bd00a8751acbc304ad01c3a9e0.woff) format("woff"),
+    url(ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
+}
+
+.logo {
+  width: 25px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 765px) {
+  .logo {
+    width: 40px;
+    display: inline-block;
+  }
+}
 
 .fog-1 {
   background: radial-gradient(
@@ -2169,8 +2190,20 @@ video {
   animation: gradient-3 10s ease infinite;
 }
 
-.fog-4 {
-  background: linear-gradient(rgb(0, 90, 170), rgba(255, 255, 255, 0));
+.blankit {
+  background: linear-gradient(
+    rgb(110, 133, 227) 0%,
+    rgb(150, 168, 255) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.blankit-2 {
+  background: radial-gradient(
+    rgba(40, 61, 147, 0.1) 0%,
+    rgba(0, 90, 170, 0.1) 70%,
+    rgba(50, 67, 255, 0.3) 100%
+  );
 }
 
 @keyframes gradient {
@@ -2440,8 +2473,8 @@ article ol {
 
   .sm\:prose h1 {
     color: #1a202c;
-    font-weight: 100;
-    font-size: 2.5rem;
+    font-weight: 400;
+    font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -2451,7 +2484,7 @@ article ol {
 
   .sm\:prose h2 {
     color: #1a202c;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -2462,7 +2495,7 @@ article ol {
 
   .sm\:prose h3 {
     color: #1a202c;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
@@ -3589,7 +3622,7 @@ article ol {
   }
 
   .sm\:prose-md h1 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .sm\:prose-md h2 {
@@ -3721,8 +3754,8 @@ article ol {
 
   .md\:prose h1 {
     color: #1a202c;
-    font-weight: 100;
-    font-size: 2.5rem;
+    font-weight: 400;
+    font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -3732,7 +3765,7 @@ article ol {
 
   .md\:prose h2 {
     color: #1a202c;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -3743,7 +3776,7 @@ article ol {
 
   .md\:prose h3 {
     color: #1a202c;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
@@ -4870,7 +4903,7 @@ article ol {
   }
 
   .md\:prose-md h1 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .md\:prose-md h2 {
@@ -4881,12 +4914,20 @@ article ol {
     font-size: 1.5rem;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
   }
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
   }
 }
 
@@ -5010,8 +5051,8 @@ article ol {
 
   .lg\:prose h1 {
     color: #1a202c;
-    font-weight: 100;
-    font-size: 2.5rem;
+    font-weight: 400;
+    font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -5021,7 +5062,7 @@ article ol {
 
   .lg\:prose h2 {
     color: #1a202c;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -5032,7 +5073,7 @@ article ol {
 
   .lg\:prose h3 {
     color: #1a202c;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
@@ -6159,7 +6200,7 @@ article ol {
   }
 
   .lg\:prose-md h1 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .lg\:prose-md h2 {
@@ -6295,8 +6336,8 @@ article ol {
 
   .xl\:prose h1 {
     color: #1a202c;
-    font-weight: 100;
-    font-size: 2.5rem;
+    font-weight: 400;
+    font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -6306,7 +6347,7 @@ article ol {
 
   .xl\:prose h2 {
     color: #1a202c;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -6317,7 +6358,7 @@ article ol {
 
   .xl\:prose h3 {
     color: #1a202c;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1rem;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
@@ -7444,7 +7485,7 @@ article ol {
   }
 
   .xl\:prose-md h1 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .xl\:prose-md h2 {

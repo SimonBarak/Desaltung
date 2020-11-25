@@ -14,7 +14,7 @@ module.exports = {
       md: {
         css: {
           h1: {
-            fontSize: "3rem",
+            fontSize: "6rem",
           },
           h2: {
             fontSize: "3rem",
@@ -28,17 +28,17 @@ module.exports = {
         css: {
           h1: {
             fontFamily: ["Inter", "sans-serif"],
-            fontWeight: 100,
-            fontSize: "2.5rem",
+            fontWeight: 400,
+            fontSize: "4rem",
           },
           h2: {
             fontFamily: ["Inter", "sans-serif"],
-            fontWeight: 100,
+            fontWeight: 200,
             fontSize: "2rem",
           },
           h3: {
             fontFamily: ["Inter", "sans-serif"],
-            fontWeight: 400,
+            fontWeight: 200,
             fontSize: "1rem",
           },
           p: {
