@@ -1,6 +1,6 @@
 ---
 layout: home
-thumb: "/v1603734487/desaltung/thumb.jpg"
+thumb: /v1606347289/desaltung/desaltung-iso.png
 ---
 
 # Nano-Enhanced<br />solar desalization
