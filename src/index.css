@@ -31,17 +31,8 @@
     url("./Inter-Light.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url("./Inter-Light.woff") format("woff"),
-    url("./Inter-Light.woff2") format("woff2");
-}
-
 .logo {
-  width: 25px;
+  width: 36px;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -156,7 +147,7 @@ article > h2,
 article > h3,
 article > video {
   filter: blur(10px);
-  transition: all 1s;
+  transition: filter 1s;
 }
 
 article > p.inView,

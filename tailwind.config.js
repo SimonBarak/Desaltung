@@ -29,12 +29,12 @@ module.exports = {
           h1: {
             fontFamily: ["Inter", "sans-serif"],
             fontWeight: 400,
-            fontSize: "3.75rem",
+            fontSize: "2.75rem",
           },
           h2: {
             fontFamily: ["Inter", "sans-serif"],
             fontWeight: 200,
-            fontSize: "1.75rem",
+            fontSize: "1.5rem",
           },
           h3: {
             fontFamily: ["Inter", "sans-serif"],
@@ -43,7 +43,8 @@ module.exports = {
           },
           p: {
             textAlign: "left",
-            fontSize: "1.2rem",
+            fontWeight: 200,
+            fontSize: "1rem",
           },
         },
       },

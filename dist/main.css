@@ -697,7 +697,7 @@ video {
 .prose h1 {
   color: #1a202c;
   font-weight: 400;
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -708,7 +708,7 @@ video {
 .prose h2 {
   color: #1a202c;
   font-weight: 200;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
@@ -841,7 +841,8 @@ video {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   text-align: left;
-  font-size: 1.2rem;
+  font-weight: 200;
+  font-size: 1rem;
 }
 
 .prose img {
@@ -1936,6 +1937,10 @@ video {
   font-size: 1.5rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2022,6 +2027,10 @@ video {
   pointer-events: none;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2052,6 +2061,12 @@ video {
   --text-opacity: 1;
   color: #2d3748;
   color: rgba(45, 55, 72, var(--text-opacity));
+}
+
+.text-blue-600 {
+  --text-opacity: 1;
+  color: #3182ce;
+  color: rgba(49, 130, 206, var(--text-opacity));
 }
 
 .w-full {
@@ -2136,21 +2151,8 @@ video {
     url(ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
 }
 
-@font-face {
-  font-family: "Inter";
-
-  font-style: normal;
-
-  font-weight: 100;
-
-  font-display: swap;
-
-  src: url(3ee890bd00a8751acbc304ad01c3a9e0.woff) format("woff"),
-    url(ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
-}
-
 .logo {
-  width: 25px;
+  width: 36px;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -2274,7 +2276,7 @@ article > h2,
 article > h3,
 article > video {
   filter: blur(10px);
-  transition: all 1s;
+  transition: filter 1s;
 }
 
 article > p.inView,
@@ -2470,7 +2472,7 @@ article ol {
   .sm\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -2481,7 +2483,7 @@ article ol {
   .sm\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -2614,7 +2616,8 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1rem;
   }
 
   .sm\:prose img {
@@ -3751,7 +3754,7 @@ article ol {
   .md\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -3762,7 +3765,7 @@ article ol {
   .md\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -3895,7 +3898,8 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1rem;
   }
 
   .md\:prose img {
@@ -5048,7 +5052,7 @@ article ol {
   .lg\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -5059,7 +5063,7 @@ article ol {
   .lg\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -5192,7 +5196,8 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1rem;
   }
 
   .lg\:prose img {
@@ -6333,7 +6338,7 @@ article ol {
   .xl\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
@@ -6344,7 +6349,7 @@ article ol {
   .xl\:prose h2 {
     color: #1a202c;
     font-weight: 200;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 1em;
     line-height: 1.3333333;
@@ -6477,7 +6482,8 @@ article ol {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     text-align: left;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1rem;
   }
 
   .xl\:prose img {
