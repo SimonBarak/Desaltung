@@ -697,12 +697,11 @@ video {
 .prose h1 {
   color: #1a202c;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
   font-family: Inter;
-  font-family: sans-serif;
 }
 
 .prose h2 {
@@ -713,7 +712,6 @@ video {
   margin-bottom: 1em;
   line-height: 1.3333333;
   font-family: Inter;
-  font-family: sans-serif;
 }
 
 .prose h3 {
@@ -724,7 +722,6 @@ video {
   margin-bottom: 0.6em;
   line-height: 1.6;
   font-family: Inter;
-  font-family: sans-serif;
 }
 
 .prose h4 {
@@ -1905,12 +1902,8 @@ video {
   flex-grow: 1;
 }
 
-.font-basic {
-  font-family: Roboto, sans-serif;
-}
-
 .font-body {
-  font-family: Times, serif;
+  font-family: Inter, sans-serif;
 }
 
 .font-thin {
@@ -2117,8 +2110,8 @@ video {
 
   font-display: swap;
 
-  src: url(0c847eef221e164c17da95afc3af6e92.woff) format("woff"),
-    url(874bf62fa7ae4459712a6261599f2c31.woff2) format("woff2");
+  src: url(/0c847eef221e164c17da95afc3af6e92.woff) format("woff"),
+    url(/874bf62fa7ae4459712a6261599f2c31.woff2) format("woff2");
 }
 
 @font-face {
@@ -2130,8 +2123,8 @@ video {
 
   font-display: swap;
 
-  src: url(0ab5a8a59fdef78d5de9acdc8019e8d1.woff) format("woff"),
-    url(5cda9a923a1f1dbb643d60a568b30e5c.woff2) format("woff2");
+  src: url(/0ab5a8a59fdef78d5de9acdc8019e8d1.woff) format("woff"),
+    url(/5cda9a923a1f1dbb643d60a568b30e5c.woff2) format("woff2");
 }
 
 @font-face {
@@ -2143,8 +2136,8 @@ video {
 
   font-display: swap;
 
-  src: url(3ee890bd00a8751acbc304ad01c3a9e0.woff) format("woff"),
-    url(ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
+  src: url(/3ee890bd00a8751acbc304ad01c3a9e0.woff) format("woff"),
+    url(/ab15890d6f6bc7f32adfa1e1e354ee54.woff2) format("woff2");
 }
 
 .logo {
@@ -2468,12 +2461,11 @@ article ol {
   .sm\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .sm\:prose h2 {
@@ -2484,7 +2476,6 @@ article ol {
     margin-bottom: 1em;
     line-height: 1.3333333;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .sm\:prose h3 {
@@ -2495,7 +2486,6 @@ article ol {
     margin-bottom: 0.6em;
     line-height: 1.6;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .sm\:prose h4 {
@@ -3750,12 +3740,11 @@ article ol {
   .md\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .md\:prose h2 {
@@ -3766,7 +3755,6 @@ article ol {
     margin-bottom: 1em;
     line-height: 1.3333333;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .md\:prose h3 {
@@ -3777,7 +3765,6 @@ article ol {
     margin-bottom: 0.6em;
     line-height: 1.6;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .md\:prose h4 {
@@ -5048,12 +5035,11 @@ article ol {
   .lg\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .lg\:prose h2 {
@@ -5064,7 +5050,6 @@ article ol {
     margin-bottom: 1em;
     line-height: 1.3333333;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .lg\:prose h3 {
@@ -5075,7 +5060,6 @@ article ol {
     margin-bottom: 0.6em;
     line-height: 1.6;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .lg\:prose h4 {
@@ -6334,12 +6318,11 @@ article ol {
   .xl\:prose h1 {
     color: #1a202c;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.8888889em;
     line-height: 1.1111111;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .xl\:prose h2 {
@@ -6350,7 +6333,6 @@ article ol {
     margin-bottom: 1em;
     line-height: 1.3333333;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .xl\:prose h3 {
@@ -6361,7 +6343,6 @@ article ol {
     margin-bottom: 0.6em;
     line-height: 1.6;
     font-family: Inter;
-    font-family: sans-serif;
   }
 
   .xl\:prose h4 {

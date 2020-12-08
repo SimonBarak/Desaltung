@@ -7,9 +7,11 @@ module.exports = {
   entry: "./src/index.js",
   mode: isProduction ? "production" : "development",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, ""),
     filename: "bundle.js",
+    publicPath: "/",
   },
+
   plugins: [new MiniCssExtractPlugin()],
   module: {
     rules: [
@@ -23,7 +25,7 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ["file-loader"],
+        loader: "file-loader",
       },
     ],
   },

@@ -27,17 +27,17 @@ module.exports = {
       default: {
         css: {
           h1: {
-            fontFamily: ["Inter", "sans-serif"],
+            fontFamily: ["Inter"],
             fontWeight: 400,
-            fontSize: "2.5rem",
+            fontSize: "2rem",
           },
           h2: {
-            fontFamily: ["Inter", "sans-serif"],
+            fontFamily: ["Inter"],
             fontWeight: 200,
             fontSize: "1.5rem",
           },
           h3: {
-            fontFamily: ["Inter", "sans-serif"],
+            fontFamily: ["Inter"],
             fontWeight: 200,
             fontSize: "1rem",
           },
@@ -48,11 +48,6 @@ module.exports = {
           },
         },
       },
-    },
-    fontThin: 100,
-    fontFamily: {
-      basic: ["Roboto", "sans-serif"],
-      body: ["Times", "serif"],
     },
     container: {
       center: true,
