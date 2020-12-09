@@ -1,8 +1,8 @@
 ---
 layout: home
-thumb: /v1606347289/desaltung/desaltung-iso.png
----
+thumb: "/v1606347289/desaltung/desaltung-iso.png"
 
+---
 # Nano-Enhanced<br />solar desalization
 
 ## Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
@@ -29,7 +29,7 @@ In original form it is usable yet ineffective for industrial scale production. B
 
 And only small part of that water is ready to drink and use due to contamination. Most of the water is too salty to drink or for industrial use. There are technologies for obtaining fresh water from the sea however they are crutially dependent on electricity. 0.5 % of all globally produced electricity is used for desalinisation.
 
-![Wikipedia](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1602706782/desaltung/2006megacities-1-_ahfwla.jpg "Wikipedia.org")
+![](https://res.cloudinary.com/dhxmg9p4i/image/upload/v1607505511/desaltung/jaime-dantas-GBcFCtqUkuI-unsplash_u0v5w1.jpg)
 
 ## People living nearby ocean and sea lines have source of the usable water right in front of them
 
