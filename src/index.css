@@ -86,35 +86,35 @@
 
 @keyframes gradient {
   0% {
-    transform: translate(20vw, 100px);
+    transform: translate(20vw, 40vh);
     opacity: 0;
   }
   20% {
     opacity: 1;
-    transform: translate(20vw, 100px);
+    transform: translate(10vw, 10vh);
   }
   90% {
     opacity: 1;
-    transform: translate(30vw, 70px);
+    transform: translate(30vw, 3vh);
   }
   100% {
     opacity: 0;
-    transform: translate(40vw, 0px);
+    transform: translate(40vw, 0vh);
   }
 }
 
 @keyframes gradient-2 {
   0% {
     opacity: 0;
-    transform: translate(0vw, 50px);
+    transform: translate(0vw, 30vh);
   }
   20% {
     opacity: 1;
-    transform: translate(0vw, 50px);
+    transform: translate(0vw, 25vh);
   }
   80% {
     opacity: 1;
-    transform: translate(50vw, 40px);
+    transform: translate(50vw, 10vh);
   }
   100% {
     opacity: 0;
