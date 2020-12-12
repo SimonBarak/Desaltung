@@ -1,8 +1,9 @@
 ---
 layout: home
-thumb: "/v1606347289/desaltung/desaltung-iso.png"
-
+thumb: "/v1607813919/desaltung/embed.jpg"
+title: solar desalisation
 ---
+
 # Nano-Enhanced<br />solar desalisation
 
 ## Desaltung is novel sustainable technology allowing fresh water production for everybody without access to electricity
