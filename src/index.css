@@ -141,24 +141,6 @@
   }
 }
 
-article > p,
-article > h1,
-article > h2,
-article > h3,
-article > video {
-  filter: blur(10px);
-  transition: filter 1s;
-}
-
-article > p.inView,
-article > h1.inView,
-article > h2.inView,
-article > h3.inView,
-article > video.inView {
-  opacity: 1;
-  filter: blur(0);
-}
-
 /* @keyframes 2 {
   0% {
     background-position: 0% 0%;
